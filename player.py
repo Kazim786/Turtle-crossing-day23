@@ -21,3 +21,7 @@ class Player(Turtle):
         self.penup()
         going_up = self.ycor() + MOVE_DISTANCE
         self.goto(self.xcor(), going_up)
+
+    # def finished(self):
+    #     if self.distance() == 280:
+    #         print("You win")

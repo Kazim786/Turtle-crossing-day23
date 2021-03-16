@@ -14,7 +14,7 @@ player = Player()
 
 
 screen.onkey(player.up, "Up")
-
+screen.on
 
 game_is_on = True
 while game_is_on:
