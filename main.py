@@ -17,6 +17,7 @@ player = Player()
 screen.onkey(player.up, "Up")
 cars = CarManager()
 
+screen.onkey(cars.move, "Down")
 
 
 game_is_on = True

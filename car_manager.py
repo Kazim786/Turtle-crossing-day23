@@ -10,4 +10,10 @@ class CarManager(Turtle):
     def __init__(self):
         super().__init__()            
         self.shape("square")
-        self.color(COLORS)
+        # self.color(COLORS)
+
+
+    def move(self):
+        self.penup()
+        moving = self.xcor() + MOVE_INCREMENT
+        self.goto(moving, 0)
