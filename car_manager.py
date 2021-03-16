@@ -9,5 +9,5 @@ MOVE_INCREMENT = 10 #Gonna have to work with x coordinate so they move side to s
 class CarManager(Turtle):
     def __init__(self):
         super().__init__()            
-        self.shape("rectangle")
+        self.shape("square")
         self.color(COLORS)
