@@ -17,6 +17,7 @@ class Player(Turtle):
         self.setheading(90)
         
     def up(self):
+        #Did it by myself
         self.penup()
         going_up = self.ycor() + MOVE_DISTANCE
         self.goto(self.xcor(), going_up)
